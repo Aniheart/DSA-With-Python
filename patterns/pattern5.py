@@ -8,7 +8,7 @@ class Solution:
             for j in range(0,i):
                 print(" ",end="")
             print("")
-
-n = int(input("enter: "))
-sol = Solution()
-sol.pattern5(n)
+if __name__ == "__main__":
+    n = int(input("enter: "))
+    sol = Solution()
+    sol.pattern5(n)
